@@ -1,0 +1,32 @@
+name,distance,stellar_magnitude,planet_type,discovery_year,mass_multiplier,mass_wrt,radius_multiplier,radius_wrt,orbital_radius,orbital_period,eccentricity,detection_method
+55 Cancri e,41.0,5.95084,Super Earth,2004,7.99,Earth,1.875,Earth,0.01544,0.0019164955,0.05,Radial Velocity
+61 Virginis b,28.0,4.6955,Neptune-like,2009,5.1,Earth,2.11,Earth,0.050201,0.011498973,0.12,Radial Velocity
+CD Ceti b,28.0,13.95,Super Earth,2020,3.95,Earth,1.82,Earth,0.0185,0.0062970566,0.0,Radial Velocity
+DMPP-1 d,204.0,7.98,Super Earth,2019,3.35,Earth,1.65,Earth,0.0422,0.007939767,0.07,Radial Velocity
+DMPP-3 A b,148.0,9.066,Super Earth,2019,2.58,Earth,1.41,Earth,0.0662,0.0183436,0.14,Radial Velocity
+G 264-012 b,52.0,13.078,Super Earth,2021,2.5,Earth,1.39,Earth,0.02279,0.0062970566,0.0,Radial Velocity
+GJ 1002 b,16.0,13.76,Super Earth,2022,1.08,Earth,1.03,Earth,0.0457,0.028199865,0.0,Radial Velocity
+GJ 3090 b,73.0,11.403,Neptune-like,2022,3.34,Earth,2.13,Earth,0.03165,0.007939767,0.32,Transit
+GJ 367 b,31.0,10.153,Terrestrial,2021,0.546,Earth,0.718,Earth,0.0071,0.00082135526,0.0,Transit
+HD 108236 b,211.0,9.25,Super Earth,2020,3.24,Earth,1.615,Earth,0.04527,0.010403832,0.05,Transit
+HD 110113 b,347.0,10.09,Neptune-like,2021,4.55,Earth,2.05,Earth,0.035,0.0068446267,0.09,Transit
+HR 858 b,104.0,6.38,Super Earth,2019,5.0,Earth,2.085,Earth,0.048,0.009856262,0.3,Transit
+K2-117 c,332.0,14.639,Super Earth,2017,4.9,Earth,2.06,Earth,0.0492,0.014784395,0.15,Transit
+K2-288 B b,214.0,13.868,Super Earth,2018,4.27,Earth,1.9,Earth,0.164,0.08596852,0.0,Transit
+L 168-9 b,82.0,11.005,Super Earth,2020,4.6,Earth,1.39,Earth,0.02091,0.003832991,0.21,Transit
+L 98-59 b,35.0,11.685,Terrestrial,2019,0.4,Earth,0.85,Earth,0.02191,0.0062970566,0.1,Transit
+LHS 1140 b,49.0,14.15,Super Earth,2017,6.38,Earth,1.635,Earth,0.0957,0.06762492,0.096,Transit
+LHS 1678 b,65.0,12.6,Terrestrial,2021,0.35,Earth,0.696,Earth,0.01251,0.0024640656,0.25,Transit
+LP 791-18 b,86.0,16.91,Super Earth,2019,1.46,Earth,1.12,Earth,0.00969,0.0024640656,0.0,Transit
+LTT 1445 A b,22.0,10.59,Super Earth,2019,2.87,Earth,1.305,Earth,0.03813,0.014784395,0.11,Transit
+Pi Mensae c,60.0,5.65,Neptune-like,2018,3.63,Earth,2.06,Earth,0.068647,0.017248461,0.08,Transit
+Proxima Centauri b,4.0,11.01,Super Earth,2016,1.07,Earth,1.03,Earth,0.04856,0.030663928,0.02,Radial Velocity
+Ross 128 b,11.0,11.12,Super Earth,2017,1.4,Earth,1.11,Earth,0.0496,0.027104722,0.12,Radial Velocity
+Teegarden's Star b,12.0,15.13,Super Earth,2019,1.05,Earth,1.02,Earth,0.0252,0.013415469,0.0,Radial Velocity
+TRAPPIST-1 h,41.0,17.02,Terrestrial,2017,0.326,Earth,0.755,Earth,0.06189,0.05147159,0.01,Transit
+Wolf 503 b,145.0,10.27,Neptune-like,2018,6.26,Earth,2.043,Earth,0.05706,0.016427105,0.41,Transit
+EPIC 206215704 b,358.0,17.83,Terrestrial,2019,0.972,Earth,1.0,Earth,,0.0062970566,0.0,Transit
+GJ 667 C b,24.0,10.602,Neptune-like,2011,5.6,Earth,2.23,Earth,0.0505,0.019712524,0.13,Radial Velocity
+HD 158259 c,88.0,6.47915,Neptune-like,2020,5.6,Earth,2.23,Earth,,0.009308693,0.0,Radial Velocity
+K2-147 b,295.0,14.044,Terrestrial,2018,0.315,Earth,0.73,Earth,0.0159,0.0027378509,0.0,Transit
+Kepler-42 d,131.0,16.7,Terrestrial,2011,0.13,Earth,0.57,Earth,0.0154,0.005201916,0.02,Transit

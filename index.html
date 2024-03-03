@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Homework #4</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="info-btn"
+        style="
+          z-index: 2;
+          background-color: transparent;
+          color: white;
+          cursor: pointer;
+          font-size: 16px;
+          color: rgb(164, 205, 50);
+        "
+        onclick="handleShowModal();"
+      >
+        Instructions
+      </div>
+      <div class="instruction-modal">
+        <div
+          class="instruction-modal-content"
+          style="
+            background-color: rgba(0, 0, 0, 1);
+            padding: 20px;
+            border-radius: 20px;
+            width: 40%;
+          "
+        >
+          <div class="instruction-modal-header">
+            <span
+              class="close"
+              onclick="handleShowModal();"
+              style="display: flex; justify-content: right; cursor: pointer"
+              >&times;</span
+            >
+            <h1>LET'S LEARN ABOUT OUR EXOPLANETS !<br /></h1>
+            <h2><u>Instructions </u></h2>
+          </div>
+          <div class="instruction-modal-body">
+            <p>
+              The visualization shows information about
+              <span class="highlighted-class">31 exoplanets</span>
+            </p>
+            <p>
+              Three types of exoplanets are shown (
+              <span class="highlighted-class"
+                >Super Earth, Nepytune-like and Terrestrial</span
+              >). Each is shown with a different planet image
+            </p>
+            <p>
+              A legend is placed on the bottom left to show the different planet
+              types used
+            </p>
+            <p>
+              <span class="highlighted-class">Distance </span> in light years of
+              the exoplanet from Earth is shown in the axis
+            </p>
+            <p>
+              <span class="highlighted-class">Radius</span> of the planet shown
+              depicts the size of the planet with respect to Earth's
+            </p>
+            <p>
+              Hovering over the planets will show more information about the
+              respective planet (name, distance from earth, radius wrt Earth)
+            </p>
+            <p>Clicking on a planet will populate the sections below -</p>
+            <p>
+              <span class="highlighted-class">Mass with respect to Earth</span>
+              - The planet's mass is shown against planet Earth on a weighing
+              scale type visualization
+            </p>
+            <p>
+              <span class="highlighted-class">Planet Information</span> - The
+              planet's information is shown in a table format on the bottom left
+              section
+            </p>
+            <p>
+              The selected planet is shown with a surrounding
+              <span style="color: yellow">ring</span>
+            </p>
+            <p>
+              You can come back to this instructions anytime by clicking on
+              <span class="highlighted-class">Instructions</span> on the top
+              left corner of the screen
+            </p>
+            <p>
+              Click on the X icon or the button below to begin exploring
+              Exoplanet exhibit !
+            </p>
+            <span class="explore-btn" onclick="handleShowModal();">
+              Begin -></span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="tooltip"></div>
+      <div class="vis-div">
+        <svg class="vis-chart"></svg>
+      </div>
+      <div class="bottom-section">
+        <div class="legend">
+          <div style="color: white; font-size: 25px; margin-bottom: 20px">
+            Planet Types
+          </div>
+          <svg class="legend-svg"></svg>
+        </div>
+        <div class="see-saw">
+          <div style="color: white; font-size: 25px">Mass wrt Earth</div>
+          <svg class="mass-svg"></svg>
+        </div>
+        <div class="planet-info">
+          <div style="color: white; font-size: 25px; padding-right: 20px">
+            Planet Information
+          </div>
+          <div class="planet-info-div"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stars"></div>
+    <div class="twinkles"></div>
+  </body>
+  <script src="main.js"></script>
+</html>

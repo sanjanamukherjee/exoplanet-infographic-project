@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* z-index: 2; */
+  font-family: monospace;
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.vis-div {
+  /* border: aliceblue 2px solid;  */
+  z-index: 2;
+  margin: 10px 5px 10px 5px;
+  height: 550px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.vis-div::-webkit-scrollbar {
+  display: none;
+}
+
+.vis-chart {
+  width: 1500%;
+  height: 550px;
+  /* z-index: 1; */
+  /* background-color: aliceblue; */
+}
+
+.tooltip {
+  position: absolute;
+  color: yellow;
+  padding: 1%;
+  font-size: 16px;
+  opacity: 0;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.5;
+  border-radius: 10px;
+}
+.bottom-section {
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: aliceblue 2px solid; */
+  /* margin: 10px 5px 10px 5px; */
+  height: auto;
+  width: 100%;
+}
+
+.legend {
+  height: 300px;
+  width: 550px;
+  padding-left: 20px;
+}
+
+.see-saw {
+  height: 300px;
+  width: 550px;
+  text-align: center;
+}
+
+.mass-svg {
+  height: 300px;
+  width: 550px;
+}
+
+.planet-info {
+  text-align: right;
+  font-family: monospace;
+  padding-right: 20px;
+  overflow: hidden;
+  height: fit-content;
+  /* width:0; */
+}
+.planet-info-div {
+  margin-top: 20px;
+  height: 300px;
+  width: 550px;
+  font-size: 16px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.instruction-modal {
+  z-index: 3;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.highlighted-class {
+  /* border: 2px solid rgb(164, 205, 50);
+    border-radius: 10px; */
+  color: rgb(164, 205, 50);
+}
+.explore-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: rgb(164, 205, 50);
+  color: black;
+  cursor: pointer;
+}
+
+@keyframes twinkling-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+.stars,
+.twinkles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.stars {
+  background: #000 url(assets/stars.png) repeat top center;
+  z-index: 0;
+}
+
+.twinkles {
+  background: transparent url(assets/twinkling.png) repeat top center;
+  z-index: 1;
+  animation: twinkling-animation 200s linear infinite;
+}
